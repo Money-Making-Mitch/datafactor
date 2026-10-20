@@ -1,0 +1,58 @@
+name: Extract site files
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download and unpack site archive
+        run: |
+          set -e
+          curl -sSL -o /tmp/datafactor-clone.zip "https://github.com/Money-Making-Mitch/datafactor/releases/download/tmp-extract/datafactor-clone.zip"
+          rm -rf /tmp/sitepkg && mkdir -p /tmp/sitepkg
+          unzip -o -q /tmp/datafactor-clone.zip -d /tmp/sitepkg
+          echo "site root:"
+          ls -A /tmp/sitepkg/site
+          echo "assets count:"
+          ls -A /tmp/sitepkg/site/assets | wc -l
+      - name: Commit site root files
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in index.html vercel.json netlify.toml _redirects favicon.png og-image.png datafactor-logo.png robots.txt sitemap.xml .htaccess; do
+            cp "/tmp/sitepkg/site/$f" "$GITHUB_WORKSPACE/$f"
+          done
+          cd "$GITHUB_WORKSPACE"
+          git add -A
+          git status --short
+          git commit -m "Site root files"
+      - name: Commit assets part 1
+        run: |
+          set -e
+          mkdir -p "$GITHUB_WORKSPACE/assets"
+          cd /tmp/sitepkg/site/assets
+          LC_ALL=C ls -A | head -n 90 > /tmp/part1.txt
+          wc -l /tmp/part1.txt
+          while IFS= read -r f; do cp -- "$f" "$GITHUB_WORKSPACE/assets/$f"; done < /tmp/part1.txt
+          cd "$GITHUB_WORKSPACE"
+          git add -A
+          git status --short | head -n 5
+          git commit -m "Assets part 1"
+      - name: Commit assets part 2 and push
+        run: |
+          set -e
+          cd /tmp/sitepkg/site/assets
+          LC_ALL=C ls -A | tail -n +91 > /tmp/part2.txt
+          wc -l /tmp/part2.txt
+          while IFS= read -r f; do cp -- "$f" "$GITHUB_WORKSPACE/assets/$f"; done < /tmp/part2.txt
+          cd "$GITHUB_WORKSPACE"
+          git add -A
+          git commit -m "Assets part 2"
+          git log --oneline -5
+          git push
