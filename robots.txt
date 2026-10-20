@@ -1,0 +1,31 @@
+# datafactor.com
+
+User-agent: *
+Allow: /
+
+# Password-gated: a crawler only ever reaches the access form.
+Disallow: /code-repos
+# Reached only through a signed link in an offer email.
+Disallow: /offer
+# Reached only through the agreement link in an offer or reminder email;
+# expires 30 days after the offer went out.
+Disallow: /offer/agreement
+# Reached only through a signed dashboard link sent by email.
+Disallow: /refer/dashboard
+# Reached only through a link in a sequence email while it ships hidden
+# (DFL-89, stage 1); it also carries a noindex.
+Disallow: /data-inventory
+
+# The decommissioned console path is deliberately NOT listed here. It 301s to
+# admin.datafactor.com and carries X-Robots-Tag: noindex at the edge; leaving it
+# crawlable lets search engines follow the redirect and retire the old URL,
+# whereas a Disallow line would both advertise the path and freeze the stale
+# entry in the index.
+
+# /refer/terms and /refer are deliberately NOT listed here either (DFL-86).
+# Both were indexed before 2026-10-14: /refer/terms now carries a noindex and
+# /refer redirects to /connect. Leaving them crawlable lets search engines read
+# the noindex and follow the redirect and retire the old entries, whereas a
+# Disallow line would stop the crawl and freeze the stale entries in the index.
+
+Sitemap: https://datafactor.com/sitemap.xml

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Pin the modern default on older browsers: pre-2020 Chrome/Firefox
+         sent the FULL url as Referer cross-origin, which would leak a ?cfk=
+         lead token to the font/CDN hosts loaded below in the window before
+         consumeLeadLinkToken() strips it. -->
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Archivo's axis runs to 700, not 600. Google Fonts serves only the
+         range asked for here and CLAMPS silently outside it: at 100..600 a
+         `font-bold` heading rendered at 600 with no warning and no synthesis -
+         identical ink to 500-weight-plus-one-step, just not what the handoff
+         drew. Three sections ask for Archivo Bold (Provenance, How we work,
+         For data owners), so 700 has to be in the range. Instrument Sans is
+         deliberately narrower; nothing designed asks it for 700. -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..700;1,100..700&family=Instrument+Sans:ital,wght@0,400..600;1,400..600&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <!-- ── SEO fallback head ─────────────────────────────────────────────
+         Everything below is marked data-seo-fallback and is REMOVED by
+         src/main.tsx before React renders. That split exists because this app
+         is a client-rendered SPA with no prerender step, and its two audiences
+         need opposite things:
+
+           - Scrapers and crawlers that do NOT run JS (LinkedIn, Slack, X,
+             iMessage, GPTBot, ClaudeBot) only ever see this raw HTML. Without
+             these tags they get no title, no description and no share image at
+             all, so every link preview renders blank.
+           - Anything that DOES run JS gets per-page tags from the router
+             (src/lib/seo.ts + each route's head()). Those are hoisted into this
+             head at runtime, and leaving the static copies in place would give
+             every page two of each — with og:* resolving to these site-level
+             values, since they win by document order.
+
+         Stripping them on boot gives each audience exactly one correct set.
+         Keep these values in sync with DEFAULT_* in src/lib/seo.ts; the test in
+         src/lib/seo.test.ts fails if they drift. -->
+    <title data-seo-fallback>DataFactor - Proprietary Data for Advanced AI.</title>
+    <meta
+      data-seo-fallback
+      name="description"
+      content="DataFactor builds the human and real-world data layer for frontier AI: continuous, high-signal interaction data for training and evaluating models."
+    />
+    <meta data-seo-fallback name="author" content="DataFactor" />
+
+    <meta data-seo-fallback property="og:type" content="website" />
+    <meta data-seo-fallback property="og:site_name" content="DataFactor" />
+    <meta data-seo-fallback property="og:locale" content="en_US" />
+    <meta data-seo-fallback property="og:url" content="https://datafactor.com/" />
+    <meta
+      data-seo-fallback
+      property="og:title"
+      content="DataFactor - Proprietary Data for Advanced AI."
+    />
+    <meta
+      data-seo-fallback
+      property="og:description"
+      content="Real-world human and physical interaction data for training and evaluating frontier models."
+    />
+    <meta data-seo-fallback property="og:image" content="https://datafactor.com/og-image.png" />
+
+    <meta data-seo-fallback name="twitter:card" content="summary_large_image" />
+    <meta
+      data-seo-fallback
+      name="twitter:title"
+      content="DataFactor - Proprietary Data for Advanced AI."
+    />
+    <meta
+      data-seo-fallback
+      name="twitter:description"
+      content="Real-world human and physical interaction data for training and evaluating frontier models."
+    />
+    <meta data-seo-fallback name="twitter:image" content="https://datafactor.com/og-image.png" />
+
+    <meta name="theme-color" content="#101218" />
+
+    <!-- Organization identity. Deliberately STATIC and not stripped: it is true
+         on every page, needs no JS to be read, and is what populates a search
+         knowledge panel for a company whose name is a common noun phrase.
+         No sameAs: we have no verified social profiles to point at, and
+         DESIGN.md forbids fabricated social proof. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DataFactor",
+        "url": "https://datafactor.com/",
+        "logo": "https://datafactor.com/datafactor-logo.png",
+        "description": "DataFactor builds the human and real-world data layer for frontier AI: continuous, high-signal interaction data for training and evaluating models.",
+        "email": "hello@datafactor.com"
+      }
+    </script>
+    <!-- Recovery build: point this at your NEW API origin and redeploy.
+         Leave as "" to keep the original value (forms will fail until then). -->
+    <script>
+      window.__DF_API_BASE__ = "";
+    </script>
+    <script type="module" crossorigin src="/assets/index-CoLBNI6j.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DuJLpRsk.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Chat widget removed in this recovery build: it loaded remote JS from
+         infrastructure that is no longer under your control. Restore it from
+         your new backend when ready. -->
+  </body>
+</html>
