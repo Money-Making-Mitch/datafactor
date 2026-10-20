@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="31.3944" height="23.7114" viewBox="0 0 31.3944 23.7114" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Documents / SOPs / record 1">
+<path id="Documents / SOPs / record 1 / face L" d="M0.720547 9.06189L15.6972 17.7078V23.0875L0.720547 14.4416V9.06189Z" fill="url(#paint0_linear_0_202)" stroke="white" stroke-opacity="0.32" stroke-width="0.720493"/>
+<path id="Documents / SOPs / record 1 / face R" d="M30.6737 9.06189L15.6971 17.7078V23.0875L30.6737 14.4416V9.06189Z" fill="url(#paint1_linear_0_202)" stroke="white" stroke-opacity="0.32" stroke-width="0.720493"/>
+<path id="Documents / SOPs / record 1 / face T" d="M15.6972 0.415967L30.6739 9.06189L15.6972 17.7078L0.720547 9.06189L15.6972 0.415967Z" fill="url(#paint2_linear_0_202)" stroke="white" stroke-opacity="0.32" stroke-width="0.720493"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_202" x1="0.720547" y1="16.0747" x2="15.6972" y2="16.0747" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C7C0F2" stop-opacity="0.19"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.11"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_202" x1="15.6971" y1="16.0747" x2="30.6737" y2="16.0747" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A79EDF" stop-opacity="0.32"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.19"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_202" x1="0.720547" y1="9.06189" x2="30.6739" y2="9.06189" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.54"/>
+<stop offset="1" stop-color="#C7C0F2" stop-opacity="0.32"/>
+</linearGradient>
+</defs>
+</svg>

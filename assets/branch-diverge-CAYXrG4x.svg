@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="30.4798" height="20.2364" viewBox="0 0 30.4798 20.2364" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Branch / diverge">
+<path id="Branch / diverge / face L" d="M0.494276 14.8235L4.8062 17.3157V19.808L0.494276 17.3157V14.8235Z" fill="url(#paint0_linear_0_219)" stroke="#7FB8FF" stroke-opacity="0.7" stroke-width="0.494487"/>
+<path id="Branch / diverge / face R" d="M29.9849 2.77777L4.80559 17.3157V19.8079L29.9849 5.26998V2.77777Z" fill="url(#paint1_linear_0_219)" stroke="#7FB8FF" stroke-opacity="0.7" stroke-width="0.494487"/>
+<path id="Branch / diverge / face T" d="M25.6736 0.285533L29.9855 2.77775L4.8062 17.3157L0.494276 14.8235L25.6736 0.285533Z" fill="url(#paint2_linear_0_219)" stroke="#7FB8FF" stroke-opacity="0.7" stroke-width="0.494487"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_219" x1="0.494276" y1="17.3157" x2="4.8062" y2="17.3157" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FB8FF" stop-opacity="0.44"/>
+<stop offset="1" stop-color="#7FB8FF" stop-opacity="0.26"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_219" x1="4.80559" y1="11.2928" x2="29.9849" y2="11.2928" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FB8FF" stop-opacity="0.7"/>
+<stop offset="1" stop-color="#7FB8FF" stop-opacity="0.44"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_219" x1="0.494276" y1="8.8006" x2="29.9855" y2="8.8006" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FB8FF"/>
+<stop offset="1" stop-color="#7FB8FF" stop-opacity="0.82"/>
+</linearGradient>
+</defs>
+</svg>

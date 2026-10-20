@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="30.2029" height="33.0884" viewBox="0 0 30.2029 33.0884" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="CRM / support / record 2">
+<path id="CRM / support / record 2 / face L" d="M0.960539 8.72025L15.1014 16.8858V32.2564L0.960539 24.0908V8.72025Z" fill="url(#paint0_linear_0_154)" stroke="white" stroke-opacity="0.34" stroke-width="0.960658"/>
+<path id="CRM / support / record 2 / face R" d="M29.243 8.72025L15.1021 16.8858V32.2564L29.243 24.0908V8.72025Z" fill="url(#paint1_linear_0_154)" stroke="white" stroke-opacity="0.34" stroke-width="0.960658"/>
+<path id="CRM / support / record 2 / face T" d="M15.1014 0.554659L29.2423 8.72025L15.1014 16.8858L0.960539 8.72025L15.1014 0.554659Z" fill="url(#paint2_linear_0_154)" stroke="white" stroke-opacity="0.34" stroke-width="0.960658"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_154" x1="0.960539" y1="20.4883" x2="15.1014" y2="20.4883" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C7C0F2" stop-opacity="0.19"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.11"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_154" x1="15.1021" y1="20.4883" x2="29.243" y2="20.4883" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A79EDF" stop-opacity="0.34"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_154" x1="0.960539" y1="8.72025" x2="29.2423" y2="8.72025" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.58"/>
+<stop offset="1" stop-color="#C7C0F2" stop-opacity="0.34"/>
+</linearGradient>
+</defs>
+</svg>

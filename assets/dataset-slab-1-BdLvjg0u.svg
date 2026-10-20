@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="70.0143" height="47.0332" viewBox="0 0 70.0143 47.0332" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Dataset slab 1">
+<path id="Dataset slab 1 / face L" d="M0.644141 20.2114L35.0072 40.0511V46.4753L0.644141 26.6357V20.2114Z" fill="url(#paint0_linear_0_138)" stroke="white" stroke-opacity="0.32" stroke-width="0.644145"/>
+<path id="Dataset slab 1 / face R" d="M69.3695 20.2114L35.0065 40.0511V46.4753L69.3695 26.6357V20.2114Z" fill="url(#paint1_linear_0_138)" stroke="white" stroke-opacity="0.32" stroke-width="0.644145"/>
+<path id="Dataset slab 1 / face T" d="M35.0072 0.371898L69.3702 20.2116L35.0072 40.0513L0.644141 20.2116L35.0072 0.371898Z" fill="url(#paint2_linear_0_138)" stroke="white" stroke-opacity="0.32" stroke-width="0.644145"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_138" x1="0.644141" y1="33.3434" x2="35.0072" y2="33.3434" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C7C0F2" stop-opacity="0.19"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.11"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_138" x1="35.0065" y1="33.3434" x2="69.3695" y2="33.3434" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A79EDF" stop-opacity="0.32"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.19"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_138" x1="0.644141" y1="20.2116" x2="69.3702" y2="20.2116" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.54"/>
+<stop offset="1" stop-color="#C7C0F2" stop-opacity="0.32"/>
+</linearGradient>
+</defs>
+</svg>

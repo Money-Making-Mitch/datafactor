@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="79.3053" height="81.5761" viewBox="0 0 79.3053 81.5761" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Module (DataFactor)">
+<path id="Module (DataFactor) / face L" d="M0.842899 22.8948L39.6527 45.3026V80.846L0.842899 58.4382V22.8948Z" fill="url(#paint0_linear_0_126)" stroke="white" stroke-opacity="0.55" stroke-width="0.842927"/>
+<path id="Module (DataFactor) / face R" d="M78.4624 22.8948L39.6527 45.3026V80.846L78.4624 58.4382V22.8948Z" fill="url(#paint1_linear_0_126)" stroke="white" stroke-opacity="0.55" stroke-width="0.842927"/>
+<path id="Module (DataFactor) / face T" d="M39.6527 0.48667L78.4624 22.8945L39.6527 45.3023L0.842899 22.8945L39.6527 0.48667Z" fill="url(#paint2_linear_0_126)" stroke="white" stroke-opacity="0.55" stroke-width="0.842927"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_126" x1="0.842899" y1="51.8704" x2="39.6527" y2="51.8704" gradientUnits="userSpaceOnUse">
+<stop stop-color="#16181E"/>
+<stop offset="1" stop-color="#11131A"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_126" x1="39.6527" y1="51.8704" x2="78.4624" y2="51.8704" gradientUnits="userSpaceOnUse">
+<stop stop-color="#23262F"/>
+<stop offset="1" stop-color="#1B1E26"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_126" x1="0.842899" y1="22.8945" x2="78.4624" y2="22.8945" gradientUnits="userSpaceOnUse">
+<stop stop-color="#363A47"/>
+<stop offset="1" stop-color="#2B2F3A"/>
+</linearGradient>
+</defs>
+</svg>

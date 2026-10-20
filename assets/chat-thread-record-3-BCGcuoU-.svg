@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="21.8835" height="20.5999" viewBox="0 0 21.8835 20.5999" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Chat thread / record 3">
+<path id="Chat thread / record 3 / face L" d="M0.960498 6.31862L10.9417 12.0826V19.7678L0.960498 14.0039V6.31862Z" fill="url(#paint0_linear_0_174)" stroke="white" stroke-opacity="0.34" stroke-width="0.960658"/>
+<path id="Chat thread / record 3 / face R" d="M20.9236 6.31862L10.9423 12.0826V19.7678L20.9236 14.0039V6.31862Z" fill="url(#paint1_linear_0_174)" stroke="white" stroke-opacity="0.34" stroke-width="0.960658"/>
+<path id="Chat thread / record 3 / face T" d="M10.9417 0.554667L20.923 6.31862L10.9417 12.0826L0.960498 6.31862L10.9417 0.554667Z" fill="url(#paint2_linear_0_174)" stroke="white" stroke-opacity="0.34" stroke-width="0.960658"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_174" x1="0.960498" y1="13.0432" x2="10.9417" y2="13.0432" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C7C0F2" stop-opacity="0.19"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.11"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_174" x1="10.9423" y1="13.0432" x2="20.9236" y2="13.0432" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A79EDF" stop-opacity="0.34"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_174" x1="0.960498" y1="6.31862" x2="20.923" y2="6.31862" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.58"/>
+<stop offset="1" stop-color="#C7C0F2" stop-opacity="0.34"/>
+</linearGradient>
+</defs>
+</svg>

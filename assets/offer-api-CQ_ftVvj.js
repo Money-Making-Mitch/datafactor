@@ -1,0 +1,1 @@
+async function n(e,o,r={}){try{return await(await fetch("/api/score",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({mode:"offer",action:o,offerToken:e,...r})})).json()}catch{return{ok:!1,error:"network"}}}export{n as o};

@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="66.7728" height="46.8264" viewBox="0 0 66.7728 46.8264" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Domain / science / plinth">
+<path id="Domain / science / plinth / face L" d="M0.997369 19.2792L33.3864 37.9824V45.9625L0.997369 27.2592V19.2792Z" fill="url(#paint0_linear_0_16)" stroke="white" stroke-opacity="0.28" stroke-width="0.997506"/>
+<path id="Domain / science / plinth / face R" d="M65.7761 19.2792L33.3871 37.9824V45.9625L65.7761 27.2592V19.2792Z" fill="url(#paint1_linear_0_16)" stroke="white" stroke-opacity="0.28" stroke-width="0.997506"/>
+<path id="Domain / science / plinth / face T" d="M33.3864 0.575937L65.7754 19.2792L33.3864 37.9824L0.997369 19.2792L33.3864 0.575937Z" fill="url(#paint2_linear_0_16)" stroke="white" stroke-opacity="0.28" stroke-width="0.997506"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_16" x1="0.997369" y1="32.6208" x2="33.3864" y2="32.6208" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C7C0F2" stop-opacity="0.13"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.07"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_16" x1="33.3871" y1="32.6208" x2="65.7761" y2="32.6208" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A79EDF" stop-opacity="0.22"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_16" x1="0.997369" y1="19.2792" x2="65.7754" y2="19.2792" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.34"/>
+<stop offset="1" stop-color="#C7C0F2" stop-opacity="0.18"/>
+</linearGradient>
+</defs>
+</svg>

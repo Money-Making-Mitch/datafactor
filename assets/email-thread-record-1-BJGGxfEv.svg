@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28.541" height="31.1671" viewBox="0 0 28.541 31.1671" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Email thread / record 1">
+<path id="Email thread / record 1 / face L" d="M0.96021 8.23982L14.2653 15.9251V30.335L0.96021 22.6497V8.23982Z" fill="url(#paint0_linear_0_223)" stroke="white" stroke-opacity="0.34" stroke-width="0.960658"/>
+<path id="Email thread / record 1 / face R" d="M27.5797 8.23982L14.2649 15.9251V30.335L27.5797 22.6497V8.23982Z" fill="url(#paint1_linear_0_223)" stroke="white" stroke-opacity="0.34" stroke-width="0.960658"/>
+<path id="Email thread / record 1 / face T" d="M14.2654 0.55465L27.5802 8.23991L14.2654 15.9252L0.960325 8.23991L14.2654 0.55465Z" fill="url(#paint2_linear_0_223)" stroke="white" stroke-opacity="0.34" stroke-width="0.960658"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_223" x1="0.96021" y1="19.2874" x2="14.2653" y2="19.2874" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C7C0F2" stop-opacity="0.19"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.11"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_223" x1="14.2649" y1="19.2874" x2="27.5797" y2="19.2874" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A79EDF" stop-opacity="0.34"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_223" x1="0.960325" y1="8.23991" x2="27.5802" y2="8.23991" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.58"/>
+<stop offset="1" stop-color="#C7C0F2" stop-opacity="0.34"/>
+</linearGradient>
+</defs>
+</svg>

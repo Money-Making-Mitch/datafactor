@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="13.9478" height="14.9797" viewBox="0 0 13.9478 14.9797" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Feed source">
+<path id="Feed source / face L" d="M0.429387 4.02666L6.9739 7.80564V14.6078L0.429387 10.8288V4.02666Z" fill="url(#paint0_linear_0_114)" stroke="#7FB8FF" stroke-opacity="0.85" stroke-width="0.42943"/>
+<path id="Feed source / face R" d="M13.5186 4.02666L6.97405 7.80564V14.6078L13.5186 10.8288V4.02666Z" fill="url(#paint1_linear_0_114)" stroke="#7FB8FF" stroke-opacity="0.85" stroke-width="0.42943"/>
+<path id="Feed source / face T" d="M6.9739 0.24794L13.5184 4.02693L6.9739 7.80591L0.429387 4.02693L6.9739 0.24794Z" fill="url(#paint2_linear_0_114)" stroke="#7FB8FF" stroke-opacity="0.85" stroke-width="0.42943"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_114" x1="0.429387" y1="9.31724" x2="6.9739" y2="9.31724" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FB8FF" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#7FB8FF" stop-opacity="0.28"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_114" x1="6.97405" y1="9.31724" x2="13.5186" y2="9.31724" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FB8FF" stop-opacity="0.78"/>
+<stop offset="1" stop-color="#7FB8FF" stop-opacity="0.5"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_114" x1="0.429387" y1="4.02693" x2="13.5184" y2="4.02693" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#7FB8FF" stop-opacity="0.9"/>
+</linearGradient>
+</defs>
+</svg>
