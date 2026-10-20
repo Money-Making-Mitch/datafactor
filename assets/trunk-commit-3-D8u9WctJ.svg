@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="16.8124" height="18.1593" viewBox="0 0 16.8124 18.1593" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Trunk / commit 3">
+<path id="Trunk / commit 3 / face L" d="M0.494391 4.85457L8.40618 9.42363V17.731L0.494391 13.1619V4.85457Z" fill="url(#paint0_linear_0_150)" stroke="#7FB8FF" stroke-opacity="0.85" stroke-width="0.494487"/>
+<path id="Trunk / commit 3 / face R" d="M16.318 4.85457L8.40618 9.42363V17.731L16.318 13.1619V4.85457Z" fill="url(#paint1_linear_0_150)" stroke="#7FB8FF" stroke-opacity="0.85" stroke-width="0.494487"/>
+<path id="Trunk / commit 3 / face T" d="M8.40618 0.285511L16.318 4.85457L8.40618 9.42363L0.494391 4.85457L8.40618 0.285511Z" fill="url(#paint2_linear_0_150)" stroke="#7FB8FF" stroke-opacity="0.85" stroke-width="0.494487"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_150" x1="0.494391" y1="11.2928" x2="8.40618" y2="11.2928" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FB8FF" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#7FB8FF" stop-opacity="0.28"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_150" x1="8.40618" y1="11.2928" x2="16.318" y2="11.2928" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7FB8FF" stop-opacity="0.78"/>
+<stop offset="1" stop-color="#7FB8FF" stop-opacity="0.5"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_150" x1="0.494391" y1="4.85457" x2="16.318" y2="4.85457" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#7FB8FF" stop-opacity="0.9"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28.9457" height="24.4815" viewBox="0 0 28.9457 24.4815" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Repository / tab">
+<path id="Repository / tab / face L" d="M0.98819 2.64808L24.3675 16.1476V23.6242L0.98819 10.1247V2.64808Z" fill="url(#paint0_linear_0_118)" stroke="white" stroke-opacity="0.42" stroke-width="0.988974"/>
+<path id="Repository / tab / face R" d="M27.9581 14.0707L24.3682 16.1475V23.6241L27.9581 21.5473V14.0707Z" fill="url(#paint1_linear_0_118)" stroke="white" stroke-opacity="0.42" stroke-width="0.988974"/>
+<path id="Repository / tab / face T" d="M4.57817 0.571136L27.9575 14.0706L24.3675 16.1475L0.98819 2.64798L4.57817 0.571136Z" fill="url(#paint2_linear_0_118)" stroke="white" stroke-opacity="0.42" stroke-width="0.988974"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_118" x1="0.98819" y1="13.1361" x2="24.3675" y2="13.1361" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C7C0F2" stop-opacity="0.24"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.14"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_118" x1="24.3682" y1="18.8474" x2="27.9581" y2="18.8474" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A79EDF" stop-opacity="0.42"/>
+<stop offset="1" stop-color="#A79EDF" stop-opacity="0.25"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_118" x1="0.98819" y1="8.35931" x2="27.9575" y2="8.35931" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.7"/>
+<stop offset="1" stop-color="#C7C0F2" stop-opacity="0.44"/>
+</linearGradient>
+</defs>
+</svg>

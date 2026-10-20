@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="81.3597" height="49.1804" viewBox="0 0 81.3597 49.1804" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Revenue in / lane">
+<path id="Revenue in / lane / face L" d="M0.429358 2.32648L77.3317 46.7296V48.808L0.429358 4.40493V2.32648Z" fill="url(#paint0_linear_0_134)" stroke="#E8A95C" stroke-opacity="0.7" stroke-width="0.42943"/>
+<path id="Revenue in / lane / face R" d="M80.9298 44.6515L77.3312 46.73V48.8084L80.9298 46.73V44.6515Z" fill="url(#paint1_linear_0_134)" stroke="#E8A95C" stroke-opacity="0.7" stroke-width="0.42943"/>
+<path id="Revenue in / lane / face T" d="M4.02798 0.247946L80.9304 44.651L77.3317 46.7295L0.429358 2.32639L4.02798 0.247946Z" fill="url(#paint2_linear_0_134)" stroke="#E8A95C" stroke-opacity="0.7" stroke-width="0.42943"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_134" x1="0.429358" y1="25.5673" x2="77.3317" y2="25.5673" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8A95C" stop-opacity="0.44"/>
+<stop offset="1" stop-color="#E8A95C" stop-opacity="0.26"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_134" x1="77.3312" y1="46.73" x2="80.9298" y2="46.73" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8A95C" stop-opacity="0.7"/>
+<stop offset="1" stop-color="#E8A95C" stop-opacity="0.44"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_134" x1="0.429358" y1="23.4887" x2="80.9304" y2="23.4887" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8A95C"/>
+<stop offset="1" stop-color="#E8A95C" stop-opacity="0.82"/>
+</linearGradient>
+</defs>
+</svg>
