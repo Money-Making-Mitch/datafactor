@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>unzip tool</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+<h1>Datafactor zip extractor</h1>
+<input type="file" id="f">
+<p id="status">Choose datafactor-clone.zip</p>
+<h2>Root files</h2>
+<div id="root"></div>
+<h2>Assets part 1 (first 90)</h2>
+<div id="a1"></div>
+<h2>Assets part 2 (rest)</h2>
+<div id="a2"></div>
+<h2>Skipped</h2>
+<div id="skip"></div>
+<script>
+var counts={root:0,a1:0,a2:0,skip:0};
+function addLink(listId,path,blob){
+var a=document.createElement('a');
+a.href=URL.createObjectURL(blob);
+a.download=path.split('/').pop();
+a.textContent=path+' ('+blob.size+' bytes)';
+var d=document.createElement('div');
+d.appendChild(a);
+document.getElementById(listId).appendChild(d);
+counts[listId]++;
+}
+document.getElementById('f').addEventListener('change',function(ev){
+var file=ev.target.files[0];
+if(!file)return;
+var status=document.getElementById('status');
+status.textContent='Reading '+file.name+' ...';
+JSZip.loadAsync(file).then(function(zip){
+var all=[];
+zip.forEach(function(p,e){ if(!e.dir) all.push(p); });
+all.sort();
+var roots=[],assets=[],other=[];
+all.forEach(function(p){
+if(p.indexOf('site/')===0){
+var rest=p.substring(5);
+if(rest.indexOf('/')===-1){ if(rest!=='README.md') roots.push(p); else other.push(p); }
+else if(rest.indexOf('assets/')===0 && rest.substring(7).indexOf('/')===-1){ assets.push(p); }
+else other.push(p);
+} else other.push(p);
+});
+status.textContent='zip files: '+all.length+' | root: '+roots.length+' | assets: '+assets.length+' | skipped: '+other.length;
+var a1=assets.slice(0,90), a2=assets.slice(90);
+var seq=[];
+roots.forEach(function(p){ seq.push([p,'root']); });
+a1.forEach(function(p){ seq.push([p,'a1']); });
+a2.forEach(function(p){ seq.push([p,'a2']); });
+other.forEach(function(p){ seq.push([p,'skip']); });
+var chain=Promise.resolve();
+seq.forEach(function(item){
+chain=chain.then(function(){
+return zip.files[item[0]].async('blob').then(function(b){ addLink(item[1],item[0],b); });
+});
+});
+chain.then(function(){
+status.textContent+=' | LINKS READY root='+counts.root+' a1='+counts.a1+' a2='+counts.a2+' skip='+counts.skip;
+});
+}).catch(function(err){ status.textContent='ERROR: '+err; });
+});
+</script>
+</body>
+</html>
